@@ -1,0 +1,11 @@
+server:
+  port: 8080
+spring:
+  main:
+    allow-bean-definition-overriding: true
+  application:
+    name: mock-api
+  data:
+    mongodb:
+      auto-index-creation: true
+      uri: mongodb://localhost:27017/mock-api?serverSelectionTimeoutMS=15000&connectTimeoutMS=15000
